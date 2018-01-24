@@ -1,10 +1,10 @@
 cask 'graphql-playground' do
-  version '1.3.20'
-  sha256 'e237210a5a619bf058b38ac844b56287ebe0a717d14a0b931fb2be92beaa7411'
+  version '1.4.2'
+  sha256 'ef655ed4771a10092fd02240fc3b7230bd4bcde518401029c9dab03e366ce7dc'
 
   url "https://github.com/graphcool/graphql-playground/releases/download/v#{version}/graphql-playground-electron-#{version}-mac.zip"
   appcast 'https://github.com/graphcool/graphql-playground/releases.atom',
-          checkpoint: '04cdc070876aa86f3bd4be668b2ecb6065949f478f8288ef781cade95d95de88'
+          checkpoint: 'bc0d773a1ed173c6b7fc892be16348c77991e5fa90baf0a4f1148e96fad85848'
   name 'GraphQL Playground'
   homepage 'https://github.com/graphcool/graphql-playground'
 
