@@ -1,13 +1,13 @@
 cask 'lockrattler' do
-  version '4.7.1,2018.07'
-  sha256 'b9a32b5faca3a525243bfa2c924c8cadca9168034592903c83c2c353b21b3ea8'
+  version '4.18,2018.12'
+  sha256 '185f01ddc8f054b85006867a2513528196c0b4190413cf2b2c88f4f2c1031db2'
 
   # eclecticlightdotcom.files.wordpress.com was verified as official when first introduced to the cask
-  url "https://eclecticlightdotcom.files.wordpress.com/#{version.after_comma.dots_to_slashes}/lockrattler#{version.before_comma.no_dots}.zip"
+  url "https://eclecticlightdotcom.files.wordpress.com/#{version.after_comma.dots_to_slashes}/lockrattler#{version.before_comma.major}#{version.before_comma.minor}.zip"
   name 'Lock Rattler'
   homepage 'https://eclecticlight.co/'
 
   depends_on macos: '>= :el_capitan'
 
-  app "lockrattler#{version.before_comma.no_dots}/LockRattler.app"
+  app "lockrattler#{version.before_comma.major}#{version.before_comma.minor}/LockRattler.app"
 end

@@ -1,6 +1,6 @@
 cask 'anka-build' do
-  version '1.3.3.97'
-  sha256 'f9c361eccfe377c5c78527a75925d447512cb1212cc21618324f7137bcec1c17'
+  version '1.4.1.99'
+  sha256 'a9840a3bbc76e52d9a987e03e553bd614544f5069ef35e3346d66d114a9af994'
 
   # d1efqjhnhbvc57.cloudfront.net was verified as official when first introduced to the cask
   url "https://d1efqjhnhbvc57.cloudfront.net/AnkaBuild-#{version}.pkg",

@@ -1,6 +1,6 @@
 cask 'resilio-sync' do
-  version '2.6.0'
-  sha256 'c0adc6ed6122d98b42e55beb973e33b91926c2c353616bea0311906124ce55a3'
+  version '2.6.2'
+  sha256 'cac9f20c6e9e0553b139676687220343fab601220ed20bf11ac627d0f8a62087'
 
   url "https://download-cdn.resilio.com/#{version}/osx/Resilio-Sync.dmg"
   name 'Resilio Sync'

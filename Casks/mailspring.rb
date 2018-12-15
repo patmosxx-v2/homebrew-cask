@@ -1,6 +1,6 @@
 cask 'mailspring' do
-  version '1.4.2'
-  sha256 'ffdc14f82a50c168213809bbab1508de6ffabcca14105ff33e3b773d23ff0d76'
+  version '1.5.3'
+  sha256 'c57d5be8cdb8a721bb24c5cd65bc7cbb6da96f356ea9f428bd8fffae94159089'
 
   # github.com/Foundry376/Mailspring was verified as official when first introduced to the cask
   url "https://github.com/Foundry376/Mailspring/releases/download/#{version}/Mailspring.zip"
@@ -11,4 +11,12 @@ cask 'mailspring' do
   auto_updates true
 
   app 'Mailspring.app'
+
+  zap trash: [
+               '~/Library/Application Support/Mailspring',
+               '~/Library/Preferences/com.mailspring.*',
+               '~/Library/Caches/com.mailspring.*',
+               '~/Library/Saved Application State/com.mailspring.*',
+               '~/Library/Logs/Mailspring',
+             ]
 end

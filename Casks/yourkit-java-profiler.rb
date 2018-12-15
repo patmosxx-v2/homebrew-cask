@@ -1,6 +1,6 @@
 cask 'yourkit-java-profiler' do
-  version '2018.04-b81'
-  sha256 '710bd85a0ac1db3daa84073d882c0c13efdc550952913c87da28f35d5645add4'
+  version '2018.04-b87'
+  sha256 'd7cc446a83552f733a0c961efbb5050839fd0f6a5ac3d483c073502b7b829579'
 
   url "https://www.yourkit.com/download/YourKit-JavaProfiler-#{version}.dmg"
   name 'YourKit Java Profiler'

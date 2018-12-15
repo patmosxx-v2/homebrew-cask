@@ -1,6 +1,6 @@
 cask 'imageoptim' do
-  version '1.8.0'
-  sha256 'a674f8f0cf09eda0e0f725da0e95dbdf929bec6e06dd087f38ee4d7e6858b568'
+  version '1.8.7'
+  sha256 '94654a8f3166ccb0aebd5f863f44d8be609c996936812f3d30c4b5d495e3df06'
 
   url "https://imageoptim.com/ImageOptim#{version}.tar.bz2"
   appcast 'https://imageoptim.com/appcast.xml'
